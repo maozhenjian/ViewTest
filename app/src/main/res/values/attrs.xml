@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="top">
+        <attr name="titles" format="string"></attr>
+        <attr name="titleColor" format="color"></attr>
+        <attr name="titleSize" format="dimension"></attr>
+
+        <attr name="leftTextColor" format="color"></attr>
+        <attr name="leftBackground" format="reference|color"></attr>
+        <attr name="leftText" format="string"></attr>
+    </declare-styleable>
+
+
+
+</resources>

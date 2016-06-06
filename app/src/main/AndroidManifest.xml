@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.beyong.viewtest">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Other.MainActivity" />
+        <activity android:name=".ViewModel.ModelList">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewModel.DragActivity" />
+        <activity
+            android:name=".DialogAct.DialogActivity"
+            android:theme="@style/MyDialogStyleBottom" />
+        <activity android:name=".ViewModel.LocationActivity" />
+        <activity android:name=".ViewModel.BitmapActivity" />
+        <activity android:name=".ViewModel.HandlerActivity" />
+        <activity android:name=".ViewModel.ToastActivity" />
+        <activity android:name=".ViewModel.TypefaceActivity" />
+        <activity android:name=".ViewModel.Material_Design" />
+        <activity
+            android:name=".AnimTest.Circular_RevealActivity"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".AnimTest.Activity_Transition"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".AnimTest.Shared_transitionActivityTest"
+            android:theme="@style/MyTheme" />
+        <activity android:name=".ViewModel.RecyclerViewActivity" />
+        <activity android:name=".ViewModel.Anim2Activity" />
+        <activity android:name=".NormalAnim.ObjAnimActivity" />
+        <activity android:name=".View.ViewpagerAct" />
+        <activity android:name=".AnimTest.RevealColorViewAct" />
+        <activity android:name=".ViewModel.MVVMAct" />
+        <activity android:name=".UIModel.UltraPullToRefreshAct" />
+        <activity android:name=".UIModel.UIListAct" />
+        <activity android:name=".DesignModel.FactoryModelAct" />
+        <activity android:name=".DesignModel.DesginListAct" />
+        <activity android:name=".DesignModel.SingleAct" />
+        <activity android:name=".DesignModel.ObserverAct" />
+        <activity android:name=".UIModel.ConvenientBannerAct" />
+        <activity android:name=".MVVMModel.MvvmDemoAct.MovieRecycleViewMvvmAct" />
+        <activity android:name=".viewTouchTest.ViewTouchActivity" />
+        <activity android:name=".rxandroid.RxAndroidAct"></activity>
+    </application>
+
+</manifest>

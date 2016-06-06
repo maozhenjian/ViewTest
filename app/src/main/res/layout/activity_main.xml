@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/out"
+    tools:context=".Other.MainActivity">
+
+<com.example.beyong.viewtest.myView
+
+    android:id="@+id/my"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000"/>
+
+    <!--<ImageView-->
+        <!--android:background="#ff0"-->
+        <!--android:id="@+id/igg"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_below="@+id/my"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="55dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:background="@drawable/se"/>-->
+
+    <!--<com.example.beyong.viewtest.top-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--custom:titles="efafaef"-->
+        <!--custom:titleColor="#000"-->
+        <!--custom:leftTextColor="#000"-->
+        <!--custom:leftText="dwda"-->
+        <!--custom:leftBackground="#ff0"-->
+        <!-->-->
+    <!--</com.example.beyong.viewtest.top>-->
+
+</RelativeLayout>

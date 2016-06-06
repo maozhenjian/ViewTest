@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!--第一种设置方式-->
+        <variable
+            name="person"
+            type="com.example.beyong.viewtest.MVVMModel.Person"></variable>
+        <variable
+            name="personHandle"
+            type="com.example.beyong.viewtest.MVVMModel.PersonHandle"></variable>
+        <!--第二种设置方式-->
+        <!--<import type="com.example.beyong.viewtest.MVVMModel.Person"></import>-->
+        <!--<import type="com.example.beyong.viewtest.MVVMModel.PersonHandle"></import>-->
+        <!--<variable     name="person"  type="Person"></variable>-->
+        <!--<variable     name="personHandle"  type="PersonHandle"></variable>-->
+        <import type="android.view.View"/>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"   >
+    <Button
+        android:id="@+id/bt"
+        android:onClick="@{personHandle.onClick}"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:text="@{person.firstName}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:text="@{person.lastName}"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <Button
+            android:onClick="@{personHandle.onClick}"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:text="@{person.firstName}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bts"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:text="@{person.firstName}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+</layout>

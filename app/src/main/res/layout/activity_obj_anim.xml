@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.beyong.viewtest.NormalAnim.ObjAnimActivity">
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/animbt1"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:background="@drawable/button_selector"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/animbt2"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/animbt3"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/animbt4"
+        android:background="@drawable/button_selector"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>
